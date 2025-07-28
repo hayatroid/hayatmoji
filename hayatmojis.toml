@@ -1,0 +1,79 @@
+[hayatmojis.seedling]
+emoji = "🌱"
+background = "bg-green-300"
+description = "Begin a project."
+
+[hayatmojis.people_hugging]
+emoji = "🫂"
+background = "bg-pink-300"
+description = "Add a dependency."
+
+[hayatmojis.face_with_peeking_eye]
+emoji = "🫣"
+background = "bg-purple-300"
+description = "Introduce new features quietly."
+
+[hayatmojis.star_struck]
+emoji = "🤩"
+background = "bg-yellow-300"
+description = "Introduce new features boldly."
+
+[hayatmojis.person_getting_massage]
+emoji = "💆"
+background = "bg-blue-300"
+description = "Simple fix for a non-critical issue."
+
+[hayatmojis.person_facepalming]
+emoji = "🤦"
+background = "bg-amber-300"
+description = "Fix my own bugs."
+
+[hayatmojis.tiger_face]
+emoji = "🐯"
+background = "bg-orange-300"
+description = "I've been watching your struggles all along. You really worked hard, didn't you? Finally, your patience will be rewarded with massive bug fixes."
+
+[hayatmojis.rose]
+emoji = "🌹"
+background = "bg-rose-300"
+description = "Deploy stuff."
+
+[hayatmojis.hand_with_index_finger_and_thumb_crossed]
+emoji = "🫰"
+background = "bg-indigo-300"
+description = "Improve structure / format of the code."
+
+[hayatmojis.cat_with_wry_smile]
+emoji = "😼"
+background = "bg-violet-300"
+description = "Refactor code."
+
+[hayatmojis.cow_face]
+emoji = "🐮"
+background = "bg-red-300"
+description = "Remove code or files."
+
+[hayatmojis.sweat_droplets]
+emoji = "💦"
+background = "bg-cyan-300"
+description = "Critical hotfix."
+
+[hayatmojis.unicorn]
+emoji = "🦄"
+background = "bg-fuchsia-300"
+description = "Add or update the UI and style files."
+
+[hayatmojis.moai]
+emoji = "🗿"
+background = "bg-gray-300"
+description = "Add or update timeless documentation."
+
+[hayatmojis.slot_machine]
+emoji = "🎰"
+background = "bg-emerald-300"
+description = "Add a flaky test."
+
+[hayatmojis.wilted_flower]
+emoji = "🥀"
+background = "bg-slate-300"
+description = "End the project."
