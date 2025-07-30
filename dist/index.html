@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hayatmoji | An emoji guide for my commit messages</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description" content="An emoji guide for my commit messages" />
+
+  <meta property="og:url" content="https://moji.hayatro.id" />
+  <meta property="og:title" content="hayatmoji" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="An emoji guide for my commit messages" />
+  <meta property="og:image" content="https://moji.hayatro.id/ogp.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@hayatroid" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+
+  <style type="text/tailwindcss">
+    @theme {
+      --animate-wiggle: wiggle .5s;
+
+      @keyframes wiggle {
+        0%, 20%, 53%, 80%, to {
+          animation-timing-function: cubic-bezier(.215, .61, .355, 1);
+          transform: translateZ(0);
+        }
+        40%, 43% {
+          animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+          transform: translate3d(0, -9px, 0);
+        }
+        70% {
+          animation-timing-function: cubic-bezier(.755, .05, .855, .06);
+          transform: translate3d(0, -5px, 0);
+        }
+        90% {
+          transform: translate3d(0, -2px, 0);
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="px-8 py-16 bg-amber-300">
+    <div class="text-center flex flex-col gap-8">
+      <h1 class="text-[min(14vw,6rem)] font-bold">hayatm🫣ji</h1>
+      <p class="text-3xl font-bold">An emoji guide for my commit messages</p>
+      <div class="flex justify-center gap-4">
+        <a href="https://github.com/hayatroid/hayatmoji"
+          class="p-4 rounded text-white text-lg font-bold cursor-pointer bg-rose-400 shadow-rose-600 shadow-[0_4px_0_0] hover:shadow-[0_2px_0_0] hover:translate-y-[2px]">
+          ⭐ GitHub
+        </a>
+        <a target="_blank"
+          href="https://twitter.com/intent/tweet?text=hayatmoji%20%E2%80%93%20An%20%23emoji%20guide%20for%20my%20commit%20messages%20by%20%40hayatroid%20%F0%9F%AB%A3%F0%9F%A4%A6%20https%3A%2F%2Fmoji.hayatro.id"
+          class="p-4 rounded text-white text-lg font-bold cursor-pointer bg-rose-400 shadow-rose-600 shadow-[0_4px_0_0] hover:shadow-[0_2px_0_0] hover:translate-y-[2px]">
+          𝕏 Share
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="px-8 py-16">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-green-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🌱">
+            🌱
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":seedling:">
+            <span>:seedling:</span>
+          </button>
+          <p class="text-gray-400">Begin a project.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-pink-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🫂">
+            🫂
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":people_hugging:">
+            <span>:people</span><span>_<wbr></span><span>hugging:</span>
+          </button>
+          <p class="text-gray-400">Add a dependency.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-purple-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🫣">
+            🫣
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":face_with_peeking_eye:">
+            <span>:face</span><span>_<wbr></span><span>with</span><span>_<wbr></span><span>peeking</span><span>_<wbr></span><span>eye:</span>
+          </button>
+          <p class="text-gray-400">Introduce new features quietly.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-yellow-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🤩">
+            🤩
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":star_struck:">
+            <span>:star</span><span>_<wbr></span><span>struck:</span>
+          </button>
+          <p class="text-gray-400">Introduce new features boldly.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-blue-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="💆">
+            💆
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":person_getting_massage:">
+            <span>:person</span><span>_<wbr></span><span>getting</span><span>_<wbr></span><span>massage:</span>
+          </button>
+          <p class="text-gray-400">Simple fix for a non-critical issue.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-amber-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🤦">
+            🤦
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":person_facepalming:">
+            <span>:person</span><span>_<wbr></span><span>facepalming:</span>
+          </button>
+          <p class="text-gray-400">Fix my own bugs.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-orange-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🐯">
+            🐯
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":tiger_face:">
+            <span>:tiger</span><span>_<wbr></span><span>face:</span>
+          </button>
+          <p class="text-gray-400">I've been watching your struggles all along. You really worked hard, didn't you? Finally, your patience will be rewarded with massive bug fixes.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-rose-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🌹">
+            🌹
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":rose:">
+            <span>:rose:</span>
+          </button>
+          <p class="text-gray-400">Deploy stuff.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-indigo-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🫰">
+            🫰
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":hand_with_index_finger_and_thumb_crossed:">
+            <span>:hand</span><span>_<wbr></span><span>with</span><span>_<wbr></span><span>index</span><span>_<wbr></span><span>finger</span><span>_<wbr></span><span>and</span><span>_<wbr></span><span>thumb</span><span>_<wbr></span><span>crossed:</span>
+          </button>
+          <p class="text-gray-400">Improve structure / format of the code.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-violet-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="😼">
+            😼
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":cat_with_wry_smile:">
+            <span>:cat</span><span>_<wbr></span><span>with</span><span>_<wbr></span><span>wry</span><span>_<wbr></span><span>smile:</span>
+          </button>
+          <p class="text-gray-400">Refactor code.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-red-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🐮">
+            🐮
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":cow_face:">
+            <span>:cow</span><span>_<wbr></span><span>face:</span>
+          </button>
+          <p class="text-gray-400">Remove code or files.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-cyan-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="💦">
+            💦
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":sweat_droplets:">
+            <span>:sweat</span><span>_<wbr></span><span>droplets:</span>
+          </button>
+          <p class="text-gray-400">Critical hotfix.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-fuchsia-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🦄">
+            🦄
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":unicorn:">
+            <span>:unicorn:</span>
+          </button>
+          <p class="text-gray-400">Add or update the UI and style files.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-gray-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🗿">
+            🗿
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":moai:">
+            <span>:moai:</span>
+          </button>
+          <p class="text-gray-400">Add or update timeless documentation.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-emerald-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🎰">
+            🎰
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":slot_machine:">
+            <span>:slot</span><span>_<wbr></span><span>machine:</span>
+          </button>
+          <p class="text-gray-400">Add a flaky test.</p>
+        </div>
+      </div>
+
+      <div class="rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow">
+        <div class="p-8 flex items-center justify-center bg-slate-300">
+          <button class="text-8xl cursor-pointer hover:animate-wiggle" data-clipboard-text="🥀">
+            🥀
+          </button>
+        </div>
+        <div class="p-8 flex flex-col gap-4 text-center">
+          <button class="text-xl font-bold cursor-pointer hover:animate-wiggle" data-clipboard-text=":wilted_flower:">
+            <span>:wilted</span><span>_<wbr></span><span>flower:</span>
+          </button>
+          <p class="text-gray-400">End the project.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="px-8 py-12 bg-cyan-300">
+    <div class="max-w-6xl mx-auto flex justify-between gap-4 text-white text-xl font-bold">
+      <div class="flex gap-2">
+        <span>Made with 🤦 by </span>
+        <a href="https://github.com/hayatroid" class="text-red-500 hover:animate-wiggle">hayatroid</a>
+      </div>
+      <a href="https://github.com/hayatroid/hayatmoji" class="text-red-500 hover:animate-wiggle">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    const notyf = new Notyf();
+    const clipboard = new ClipboardJS('[data-clipboard-text]');
+    clipboard.on('success', (e) => {
+      notyf.success(`Hey! Hayatmoji ${e.text} copied to the clipboard 🫣`);
+    });
+  </script>
+</body>
+
+</html>
